@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/frameworks/testing" />
+  
+  <project name="ganeshi4u/android_device_samsung_j5-common" path="device/samsung/j5-common" remote="github" revision="cm-12.1" />
+  <project name="ganeshi4u/android_device_samsung_j5ltexx" path="device/samsung/j5ltexx" remote="github" revision="cm-12.1" />
+  <project name="ganeshi4u/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-12.1" />
+  <project name="ganeshi4u/proprietary_vendor_samsung_j5ltexx" path="vendor/samsung/j5ltexx" remote="github" revision="cm-12.1" />
+  <project name="ganeshi4u/kernel_samsung_j5lte" path="kernel/samsung/j5lte" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />
+
+<!-- CM replacements -->
+  <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-12.1" />
+</manifest>
