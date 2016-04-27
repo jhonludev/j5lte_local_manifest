@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/frameworks/testing" />
+<!-- Remove Telecomm -->
+	<remove-project name="CyanogenMod/android_packages_services_Telecomm" />
   
   <project name="ganeshi4u/android_device_samsung_j5-common" path="device/samsung/j5-common" remote="github" revision="cm-12.1" />
   <project name="ganeshi4u/android_device_samsung_j5ltexx" path="device/samsung/j5ltexx" remote="github" revision="cm-12.1" />
